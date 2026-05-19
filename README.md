@@ -1,17 +1,16 @@
-# Promptara
-A premium, dark-themed AI Prompt Engineering Studio that transforms raw, skeletal concepts into highly optimized, structured master prompts for ChatGPT, Claude, and Midjourney using the Google Gemini API. Built with React, Vite, and Tailwind CSS.
-# 🚀 Promptara - Advanced AI Prompt Engineering Studio
+# React + Vite
 
-Promptara is a production-ready, client-side web application designed to bridge the gap between amateur AI usage and professional prompt engineering. It eliminates prompt friction by allowing users to input rough, conversational ideas and instantly outputs production-grade system prompts engineered for Large Language Models (LLMs) and Image Diffusion architectures.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Core Features
-- **Dual Architecture Support:** Seamless optimization toggles for Text Models (ChatGPT/Claude) and Diffusion Models (Midjourney/DALL-E).
-- **Contextual Strategies:** Dropdown tuning configuration for Professional, Creative, Strict (Coding), and Academic contexts.
-- **Ultra-Modern UI:** Sleek, high-fidelity neon-dark terminal design engineered with glassmorphism styles via Tailwind CSS.
-- **Privacy First & Secure:** Environment variables (`.env`) abstraction layers ensure zero exposure of private API credentials during deployment.
+Currently, two official plugins are available:
 
-## 🛠️ Tech Stack
-- **Framework:** React v18+ (Vite Bundler Architecture)
-- **Styling:** Tailwind CSS v4 (Compiled Production Sheets)
-- **Core Engine:** Google Gemini Pro API Layer
-- **Iconography:** Lucide React Pack
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
